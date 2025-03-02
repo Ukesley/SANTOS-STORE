@@ -34,6 +34,26 @@ nav {
     height: 90px;
 }
 
+.contato {
+    background-color: #00ccff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #051032;
+}
+
+.contato:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.contato a:hover {
+    color: #fff;
+}
+
 main {
     margin-top: 50px;
 }
@@ -60,6 +80,8 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: #fff;
 }
 
 .imagens {
@@ -70,10 +92,6 @@ main {
 
 h3 {
     margin-top: 20px;
-}
-
-.item {
-    
 }
 
 span {
