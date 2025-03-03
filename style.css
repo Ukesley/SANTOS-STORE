@@ -84,6 +84,11 @@ main {
     color: #fff;
 }
 
+.containner img {
+    border-radius: 5px;
+    border: solid 1px #74bdcf;
+}
+
 .imagens {
     height: 160px;
     width: 250px;
@@ -91,7 +96,7 @@ main {
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 span {
