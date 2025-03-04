@@ -62,13 +62,13 @@ main {
     color: #051032;
     font-size: 23px;
     font-weight: bolder;
-    margin-left: 150px;
+    margin-left: 45px;
 }
 
 .containner {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 80px 100px;
+    justify-content: center;
 }
 
 .box {
