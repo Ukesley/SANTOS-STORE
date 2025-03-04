@@ -119,3 +119,48 @@ footer {
     font-size: 13px;
     text-align: center;
 }
+
+@media (max-width: 580px) {
+    .box {
+        height: 260px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #nameStore {
+        font-size: 32px;
+    }
+
+    .box {
+        width: 180px;
+    }
+}
+
+@media (max-width: 440px) {
+    .box {
+        width: 150px;
+        height:230px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    #nameStore {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 395px) {
+    #nameStore {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 380px) {
+    .box {
+        width: 130px;
+        height:220px;
+    }
+}

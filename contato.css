@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     color: #fff;
 }
@@ -101,5 +101,42 @@ footer {
     padding: 20px;
     font-size: 13px;
     text-align: center;
-    margin-top: 40px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+@media (max-width: 665px) {
+    .imgContato {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 540px) {
+    .imgContato {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 455px) {
+    #nameStore {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 390px) {
+    #nameStore {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 360px) {
+    #nameStore {
+        font-size: 22px;
+    }
 }
