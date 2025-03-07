@@ -8,6 +8,10 @@ body {
     width: 100vw;
     height: 100vh;
     color: #fff;
+    background-image: url(img/fundo-site.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {
@@ -55,7 +59,7 @@ nav {
 }
 
 main {
-    color: #051032;
+    color: #00ccff;
 }
 
 h2 {
@@ -108,7 +112,11 @@ footer {
     text-align: center;
 }
 
-
+@media (max-width: 770px) {
+    body {
+        background-image: url(img/fundo_1024_x_1440.png);
+    }
+}
 
 @media (max-width: 665px) {
     .imgContato {
@@ -125,6 +133,11 @@ footer {
 }
 
 @media (max-width: 455px) {
+
+    body {
+        background-image: url(img/fundo_375_x_1044.png);
+    }
+
     #nameStore {
         font-size: 32px;
     }
